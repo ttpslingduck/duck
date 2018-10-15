@@ -1,0 +1,11 @@
+<div class="pull-right">
+  <div *ngFor="let historyWord of historyWords">
+    <app-history-item [item]="historyWord">
+      <!-- <a href="#" class="list-group-item clearfix" (click)="onSelected()">
+        <div class="pull-left">
+          <p class="list-group-item-text">{{ historyWord.name }}</p>
+        </div>
+      </a> -->
+    </app-history-item>
+  </div>
+</div>
